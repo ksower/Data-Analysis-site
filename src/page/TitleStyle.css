@@ -1,0 +1,22 @@
+.title{
+    width: 100vw;
+    height: 100vh;
+    background: #EAE8DD;
+}
+
+.title-wrapper{
+    width: 400px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-wrapper img{
+    width: 30vh;
+    height: 30vh;
+    margin: 50px auto;
+    object-fit: cover;
+    border-radius: 68% 54% 54% 67% / 72% 48% 75%;
+}

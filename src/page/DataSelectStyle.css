@@ -1,0 +1,43 @@
+.dataselect{
+    width: 100vw;
+    height: 100vh;
+    background: #EAE8DD;
+}
+
+.data-wrapper{
+    width: 800px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.data-grid{
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+}
+
+
+#data-list{
+    height: 60vh;
+    overflow: auto;
+    border: 1px solid #99968f;
+}
+#data-list::-webkit-scrollbar {
+    width: 6px;
+}
+#data-list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgb(70, 70, 70);
+}
+#data-list::-webkit-scrollbar-track {
+    background: none;
+}
+
+
+#dg-right{
+    width: 90%;
+    margin-left: 10%;
+    padding-top: 40px;
+}

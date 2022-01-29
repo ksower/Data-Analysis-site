@@ -1,0 +1,10 @@
+@font-face{
+    font-family: "dangdanghae";
+    font-display: fallback;
+
+    src: url("./Cafe24Dangdanghae.ttf") format("truetype"), url("./Cafe24Dangdanghae.woff")
+        format("woff"), url("./Cafe24Dangdanghae.eot?iefix") format("embedded-opentype");
+
+    font-weight: 400;
+    font-style: normal;
+}

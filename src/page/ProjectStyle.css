@@ -1,0 +1,35 @@
+.project{
+    width: 100vw;
+    height: 100vh;
+    background: #EAE8DD;
+}
+
+.project-wrapper{
+    width: 800px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#project-list{
+    height: 60vh;
+    overflow: auto;
+    border: 1px solid #99968f;
+}
+#project-list::-webkit-scrollbar {
+    width: 6px;
+}
+#project-list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgb(70, 70, 70);
+}
+#project-list::-webkit-scrollbar-track {
+    background: none;
+}
+
+
+@media screen and (max-width: 800px){
+    .project-wrapper{width:90vw;}
+}
